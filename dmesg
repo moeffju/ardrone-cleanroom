@@ -1,0 +1,257 @@
+ found valid parameter page 0
+[    0.951610] ONFI: read cache supported
+[    0.951628] ONFI: page cache program supported
+[    0.951647] ONFI: mode 1f, feature 3f
+[    0.951665] ONFI: using timings mode 4
+[    0.951729] ONFI: timings are set to
+[    0.951738]        tALH = 5, tALS = 10, tCEA = 25,
+[    0.951749]        tCEH = 0, tCH = 5, tCLH = 5,
+[    0.951760]        tCLR = 10, tCLS = 10, tCS = 20,
+[    0.951772]        tDH = 5, tDS = 10, tRC = 25,
+[    0.951782]        tREA = 20, tREH = 10, tRHZ = 100,
+[    0.951794]        tRP = 12, tRR = 20, tWC = 25,
+[    0.951805]        tWH = 10, tWHR = 60, tWP = 12,
+[    0.951816]        toRST = 5, twRST = 10, teRST = 500
+[    0.951876] onfi result : 0
+[    0.951892] status : 00000003
+[    0.951906] start : 00000000
+[    0.951921] tim0 : 88111322
+[    0.951934] tim1 : 00000050
+[    0.951949] cfg : 18000000
+[    0.951962] ecc : a4000802
+[    0.951976] ctrl0 : 390000ef
+[    0.951991] ctrl1 : 00400400
+[    0.952005] addrlo : ffffff01
+[    0.952019] addrhi : 00000000
+[    0.952034] irq status : 00000003
+[    0.952391] Bad block table found at page 65472, version 0x01
+[    0.952705] Bad block table found at page 65408, version 0x01
+[    0.953093] 5 parrotpart partitions found on MTD device nand0
+[    0.953127] Creating 5 MTD partitions on "nand0":
+[    0.953157] 0x00000000-0x00040000 : "Pbootloader"
+[    0.954853] 0x00040000-0x00840000 : "Pmain_boot"
+[    0.956484] 0x00840000-0x01040000 : "Pfactory"
+[    0.958075] 0x01040000-0x02040000 : "Psystem"
+[    0.959680] 0x02040000-0x08000000 : "Pupdate"
+[    0.963691] UBI: attaching mtd2 to ubi0
+[    0.963725] UBI: physical eraseblock size:   131072 bytes (128 KiB)
+[    0.963751] UBI: logical eraseblock size:    126976 bytes
+[    0.963772] UBI: smallest flash I/O unit:    2048
+[    0.963792] UBI: sub-page size:              512
+[    0.963814] UBI: VID header offset:          2048 (aligned 2048)
+[    0.963837] UBI: data offset:                4096
+[    0.989524] UBI: attached mtd2 to ubi0
+[    0.989553] UBI: MTD device name:            "Pfactory"
+[    0.989575] UBI: MTD device size:            8 MiB
+[    0.989595] UBI: number of good PEBs:        64
+[    0.989615] UBI: number of bad PEBs:         0
+[    0.989634] UBI: max. allowed volumes:       128
+[    0.989654] UBI: wear-leveling threshold:    4096
+[    0.989674] UBI: number of internal volumes: 1
+[    0.989694] UBI: number of user volumes:     1
+[    0.989713] UBI: available PEBs:             0
+[    0.989732] UBI: total number of reserved PEBs: 64
+[    0.989754] UBI: number of PEBs reserved for bad PEB handling: 2
+[    0.989777] UBI: max/mean erase counter: 2/1
+[    0.989796] UBI: image sequence number: 0
+[    0.989850] UBI: attaching mtd3 to ubi1
+[    0.989876] UBI: physical eraseblock size:   131072 bytes (128 KiB)
+[    0.989900] UBI: logical eraseblock size:    126976 bytes
+[    0.989922] UBI: smallest flash I/O unit:    2048
+[    0.989942] UBI: sub-page size:              512
+[    0.989964] UBI: VID header offset:          2048 (aligned 2048)
+[    0.989987] UBI: data offset:                4096
+[    0.990331] UBI: background thread "ubi_bgt0d" started, PID 764
+[    1.033699] UBI: attached mtd3 to ubi1
+[    1.033727] UBI: MTD device name:            "Psystem"
+[    1.033749] UBI: MTD device size:            16 MiB
+[    1.033770] UBI: number of good PEBs:        128
+[    1.033789] UBI: number of bad PEBs:         0
+[    1.033809] UBI: max. allowed volumes:       128
+[    1.033828] UBI: wear-leveling threshold:    4096
+[    1.033848] UBI: number of internal volumes: 1
+[    1.033867] UBI: number of user volumes:     1
+[    1.033887] UBI: available PEBs:             0
+[    1.033906] UBI: total number of reserved PEBs: 128
+[    1.033928] UBI: number of PEBs reserved for bad PEB handling: 2
+[    1.033952] UBI: max/mean erase counter: 11/7
+[    1.033972] UBI: image sequence number: 436777457
+[    1.034028] UBI: attaching mtd4 to ubi2
+[    1.034053] UBI: physical eraseblock size:   131072 bytes (128 KiB)
+[    1.034078] UBI: logical eraseblock size:    126976 bytes
+[    1.034099] UBI: smallest flash I/O unit:    2048
+[    1.034119] UBI: sub-page size:              512
+[    1.034141] UBI: VID header offset:          2048 (aligned 2048)
+[    1.034164] UBI: data offset:                4096
+[    1.034505] UBI: background thread "ubi_bgt1d" started, PID 767
+[    1.251801] UBI: attached mtd4 to ubi2
+[    1.251831] UBI: MTD device name:            "Pupdate"
+[    1.251854] UBI: MTD device size:            95 MiB
+[    1.251875] UBI: number of good PEBs:        762
+[    1.251895] UBI: number of bad PEBs:         4
+[    1.251915] UBI: max. allowed volumes:       128
+[    1.251935] UBI: wear-leveling threshold:    4096
+[    1.251955] UBI: number of internal volumes: 1
+[    1.251974] UBI: number of user volumes:     2
+[    1.251993] UBI: available PEBs:             0
+[    1.252013] UBI: total number of reserved PEBs: 762
+[    1.252035] UBI: number of PEBs reserved for bad PEB handling: 7
+[    1.252059] UBI: max/mean erase counter: 4/2
+[    1.252079] UBI: image sequence number: 439654322
+[    1.252416] UBI: background thread "ubi_bgt2d" started, PID 771
+[    1.253442] Initializing USB Mass Storage driver...
+[    1.253916] usbcore: registered new interface driver usb-storage
+[    1.253973] USB Mass Storage support registered.
+[    1.254413] usbcore: registered new interface driver libusual
+[    1.254473] i2c /dev entries driver
+[    1.255570] sdhci: Secure Digital Host Controller Interface driver
+[    1.255601] sdhci: Copyright(c) Pierre Ossman
+[    1.257223] parrot5-i2cm parrot5-i2cm.0: controller probe successfully
+[    1.258787] parrot5-i2cm parrot5-i2cm.1: controller probe successfully
+[    1.260688] camera 0-0: P6 camif driver attached to camera 0
+[    1.261688] camera 0-0: p6 camif driver detached from camera 0
+[    1.262244] camera 1-0: P6 camif driver attached to camera 0
+[    1.263139] camera 1-0: p6 camif driver detached from camera 0
+[    1.263574] Parrot6 SPI driver $Revision: 1.8 $
+[    1.264625] p6_spi: clock = 26000000Hz
+[    1.264652] p6_spi: tsetupcs = 76ns
+[    1.264669] p6_spi: tholdcs = 76ns
+[    1.265487] HIFInit
+[    1.266800] input: p6_kbd_input as /class/input/input0
+[    1.321663] p6_kbd_input p6_kbd_input.0: driver loaded
+[    1.322180] dmamem dmamem.0: No static mem pool : big memory allocation can fail
+[    1.325583] Netfilter messages via NETLINK v0.30.
+[    1.325786] nf_conntrack version 0.5.0 (2048 buckets, 8192 max)
+[    1.326112] CONFIG_NF_CT_ACCT is deprecated and will be removed soon. Plase use
+[    1.326146] nf_conntrack.acct=1 kernel paramater, acct=1 nf_conntrack module option or
+[    1.326174] sysctl net.netfilter.nf_conntrack_acct=1 to enable it.
+[    1.326872] ip_tables: (C) 2000-2006 Netfilter Core Team
+[    1.327082] ClusterIP Version 0.8 loaded successfully
+[    1.327233] arp_tables: (C) 2002 David S. Miller
+[    1.327326] TCP cubic registered
+[    1.327351] NET: Registered protocol family 17
+[    1.328131] RPC: Registered udp transport module.
+[    1.328161] RPC: Registered tcp transport module.
+[    1.366402] UBIFS: mounted UBI device 1, volume 0, name "system"
+[    1.366433] UBIFS: mounted read-only
+[    1.366457] UBIFS: file system size:   14348288 bytes (14012 KiB, 13 MiB, 113 LEBs)
+[    1.366490] UBIFS: journal size:       1015809 bytes (992 KiB, 0 MiB, 6 LEBs)
+[    1.366519] UBIFS: media format:       w4/r0 (latest is w4/r0)
+[    1.366543] UBIFS: default compressor: none
+[    1.366564] UBIFS: reserved for root:  677704 bytes (661 KiB)
+[    1.367333] VFS: Mounted root (ubifs filesystem) readonly.
+[    1.367635] Freeing init memory: 116K
+[    1.369042] ------------[ cut here ]------------
+[    1.369078] WARNING: at /home/aferran/.ardrone/linux/ARDrone_Version_20101202/Linux/kernel/linux/drivers/serial/../parrot/serial/parrot5.c:156 parrot5_serial_int+0x2a0/0x41c()
+[    1.369122] Modules linked in:
+[    1.369143] [<c029f088>] (dump_stack+0x0/0x14) from [<c003758c>] (warn_on_slowpath+0x4c/0x68)
+[    1.369221] [<c0037540>] (warn_on_slowpath+0x0/0x68) from [<c0164200>] (parrot5_serial_int+0x2a0/0x41c)
+[    1.369284]  r6:00000000 r5:c0376e3c r4:c0376e3c
+[    1.369316] [<c0163f60>] (parrot5_serial_int+0x0/0x41c) from [<c005cc80>] (handle_IRQ_event+0x44/0x84)
+[    1.369389] [<c005cc3c>] (handle_IRQ_event+0x0/0x84) from [<c005e380>] (handle_level_irq+0xd0/0x154)
+[    1.369457]  r7:00000001 r6:c7a6c880 r5:00000005 r4:c0350f60
+[    1.369496] [<c005e2b0>] (handle_level_irq+0x0/0x154) from [<c0025044>] (__exception_text_start+0x44/0x60)
+[    1.369567]  r7:00000001 r6:00000000 r5:00000005 r4:c0350f60
+[    1.369606] [<c0025000>] (__exception_text_start+0x0/0x60) from [<c00258a8>] (__irq_svc+0x48/0x8c)
+[    1.369670] Exception stack(0xc781d9f8 to 0xc781da40)
+[    1.369690] d9e0:                                                       00000000 00000000 
+[    1.369744] da00: 00000000 00000000 01c1e870 00000000 00000001 c79378c0 c7937800 00000000 
+[    1.369802] da20: c78aa800 c781dab4 c781da78 c781da40 00000040 c019c5ec 40000013 ffffffff 
+[    1.369866]  r7:00000001 r6:00000020 r5:fc000000 r4:ffffffff
+[    1.369905] [<c019c5ac>] (nand_do_read_ops+0x0/0x414) from [<c019cd14>] (nand_read+0x90/0xb4)
+[    1.369969] [<c019cc84>] (nand_read+0x0/0xb4) from [<c0195488>] (part_read+0x9c/0xd0)
+[    1.370037]  r9:0001e870 r8:00000094 r6:c783b3a0 r5:00000000 r4:00bde870
+[    1.370084] [<c01953ec>] (part_read+0x0/0xd0) from [<c01a8428>] (ubi_io_read+0x64/0xe8)
+[    1.370153]  r6:00bde870 r5:00000000 r4:00bc0000
+[    1.370185] [<c01a83c4>] (ubi_io_read+0x0/0xe8) from [<c01a7f10>] (ubi_eba_read_leb+0x1a8/0x29c)
+[    1.370249] [<c01a7d68>] (ubi_eba_read_leb+0x0/0x29c) from [<c01a5cc0>] (ubi_leb_read+0xd4/0x12c)
+[    1.370313] [<c01a5bec>] (ubi_leb_read+0x0/0x12c) from [<c010e124>] (ubifs_read_node+0x40/0x1a4)
+[    1.370389]  r8:c7a3f000 r7:00000094 r6:00000009 r5:c7a3f000 r4:c7994d60
+[    1.370437] [<c010e0e4>] (ubifs_read_node+0x0/0x1a4) from [<c0122d60>] (ubifs_load_znode+0x94/0x36c)
+[    1.370510] [<c0122ccc>] (ubifs_load_znode+0x0/0x36c) from [<c0110af0>] (ubifs_lookup_level0+0xd0/0x188)
+[    1.370580] [<c0110a20>] (ubifs_lookup_level0+0x0/0x188) from [<c0111d24>] (ubifs_tnc_locate+0x44/0x17c)
+[    1.370642] [<c0111ce0>] (ubifs_tnc_locate+0x0/0x17c) from [<c0111e8c>] (ubifs_tnc_lookup_nm+0x30/0x108)
+[    1.370696] [<c0111e5c>] (ubifs_tnc_lookup_nm+0x0/0x108) from [<c010870c>] (ubifs_lookup+0x80/0x14c)
+[    1.370754] [<c010868c>] (ubifs_lookup+0x0/0x14c) from [<c0090e8c>] (do_lookup+0xcc/0x194)
+[    1.370861]  r8:c740be74 r7:c781dea8 r6:c740be08 r5:c7405e38 r4:00000000
+[    1.370911] [<c0090dc0>] (do_lookup+0x0/0x194) from [<c0091ee4>] (__link_path_walk+0x3f4/0xeb8)
+[    1.370972] [<c0091af0>] (__link_path_walk+0x0/0xeb8) from [<c0092b4c>] (path_walk+0x50/0x9c)
+[    1.371030] [<c0092afc>] (path_walk+0x0/0x9c) from [<c0092d08>] (do_path_lookup+0x128/0x150)
+[    1.371087]  r7:00000001 r6:c034b2e8 r5:c781dea8 r4:c781c000
+[    1.371127] [<c0092be0>] (do_path_lookup+0x0/0x150) from [<c0092dac>] (__path_lookup_intent_open+0x54/0x94)
+[    1.371190]  r8:c034b9a0 r7:00000001 r6:c02fd709 r5:ffffff9c r4:c781dea8
+[    1.371237] [<c0092d58>] (__path_lookup_intent_open+0x0/0x94) from [<c0092e10>] (path_lookup_open+0x24/0x2c)
+[    1.371301]  r7:c034ba28 r6:00000021 r5:c7abf6e0 r4:c781dea8
+[    1.371340] [<c0092dec>] (path_lookup_open+0x0/0x2c) from [<c008e070>] (open_exec+0x30/0xcc)
+[    1.371396] [<c008e040>] (open_exec+0x0/0xcc) from [<c008e504>] (do_execve+0x54/0x1d4)
+[    1.371447]  r6:c02fd709 r5:c7abf6e0 r4:00000000
+[    1.371479] [<c008e4b0>] (do_execve+0x0/0x1d4) from [<c0028f14>] (kernel_execve+0x40/0x8c)
+[    1.371548] [<c0028ed4>] (kernel_execve+0x0/0x8c) from [<c002545c>] (run_init_process+0x1c/0x24)
+[    1.371612]  r7:00000000 r6:00000000 r5:00000000 r4:c036ac60
+[    1.371651] [<c0025440>] (run_init_process+0x0/0x24) from [<c002551c>] (init_post+0xb8/0x100)
+[    1.371707] [<c0025464>] (init_post+0x0/0x100) from [<c000846c>] (kernel_init+0xd0/0xf8)
+[    1.371762]  r5:00000000 r4:c036ac60
+[    1.371787] [<c000839c>] (kernel_init+0x0/0xf8) from [<c003ab8c>] (do_exit+0x0/0x7c4)
+[    1.371846]  r4:00000000
+[    1.371866] ---[ end trace 417f8fe0ddffaf6c ]---
+[    2.293704] UBIFS: mounted UBI device 0, volume 0, name "factory"
+[    2.293736] UBIFS: mounted read-only
+[    2.293759] UBIFS: file system size:   6221824 bytes (6076 KiB, 5 MiB, 49 LEBs)
+[    2.293790] UBIFS: journal size:       1015809 bytes (992 KiB, 0 MiB, 6 LEBs)
+[    2.293820] UBIFS: media format:       w4/r0 (latest is w4/r0)
+[    2.293843] UBIFS: default compressor: none
+[    2.293864] UBIFS: reserved for root:  293871 bytes (286 KiB)
+[    2.348469] UBIFS: mounted UBI device 2, volume 0, name "update"
+[    2.348508] UBIFS: file system size:   15745024 bytes (15376 KiB, 15 MiB, 124 LEBs)
+[    2.348541] UBIFS: journal size:       1015809 bytes (992 KiB, 0 MiB, 6 LEBs)
+[    2.348571] UBIFS: media format:       w4/r0 (latest is w4/r0)
+[    2.348594] UBIFS: default compressor: none
+[    2.348615] UBIFS: reserved for root:  743676 bytes (726 KiB)
+[    2.377280] UBIFS: recovery needed
+[    2.395650] UBIFS: recovery completed
+[    2.395690] UBIFS: mounted UBI device 2, volume 1, name "data"
+[    2.395719] UBIFS: file system size:   77328384 bytes (75516 KiB, 73 MiB, 609 LEBs)
+[    2.395751] UBIFS: journal size:       3809280 bytes (3720 KiB, 3 MiB, 30 LEBs)
+[    2.395781] UBIFS: media format:       w4/r0 (latest is w4/r0)
+[    2.395804] UBIFS: default compressor: none
+[    2.395825] UBIFS: reserved for root:  3652410 bytes (3566 KiB)
+[    2.497550] Parrot6 SDHCI driver $Revision: 1.7 $
+[    2.497802] gpio 37 is not selected.
+[    2.497816] Please do it in your board code
+[    2.497849] p6 mux select pin @0xfd000058 : 0x55500010->0x55500410
+[    2.497875] gpio 36 is not selected.
+[    2.497885] Please do it in your board code
+[    2.497910] p6 mux select pin @0xfd000058 : 0x55500410->0x55500510
+[    2.506769] mmc0: SDHCI controller on p6-sdhci [p6-sdhci.1] using DMA
+[    3.045602] mmc0: queuing CIS tuple 0x01 length 3
+[    3.094220] mmc0: queuing CIS tuple 0x1a length 5
+[    3.111400] mmc0: queuing CIS tuple 0x1b length 8
+[    3.114859] mmc0: queuing CIS tuple 0x14 length 0
+[    3.118076] mmc0: queuing CIS tuple 0x80 length 1
+[    3.118174] mmc0: queuing CIS tuple 0x81 length 1
+[    3.118271] mmc0: queuing CIS tuple 0x82 length 1
+[    3.118329] mmc0: new SDIO card at address 0001
+[    6.296694] AR6000 Reg Code = 0x40000060
+[   12.467067] channel hint set to 2412
+[   12.479054] AR6000 updating target stats
+[   12.609984] AR6000 connected event on freq 2437 with bssid 7a:04:7e:4f:33:73  listenInterval=0, beaconInterval = 100, beaconIeLen = 0 assocReqLen=0 assocRespLen =0
+[   12.610055] Network: Adhoc (Joiner)
+[   12.616137] c8: bc: c8: e6: c6: 5d: 
+[   13.017447] b8: ff: 61: 3c: f1: 05: 
+[   16.379940] start pwm clock
+[   16.959329] camera 0-0: P6 camif driver attached to camera 0
+[   19.548222] camera 1-0: P6 camif driver attached to camera 0
+[   71.191476] 04: 1e: 64: bc: 5c: fd: 
+[  145.642142] 64: b9: e8: 2c: 36: 3c: 
+[  156.330927] 00: 22: 43: 26: 37: a5: 
+[  204.850976] 00: 00: 00: 00: 00: 00: 
+[  332.577952] iwioctl: cmd=0x8b03 not allowed in this mode
+[  332.580581] AR6000 updating target stats
+[  332.580787] iwioctl: cmd=0x8b1d not allowed in this mode
+[  332.584793] iwioctl: cmd=0x8b23 not allowed in this mode
+[  332.584838] iwioctl: cmd=0x8b25 not allowed in this mode
+[  380.399277] 58: 55: ca: fb: a7: 39: 
+[  469.182069] 00: 00: 00: 00: 00: 00: 
+[  529.257341] 00: 00: 00: 00: 00: 00: 
+[  714.257299] bad status after transfert a, resetting
+[  714.273934] status after reset 10
